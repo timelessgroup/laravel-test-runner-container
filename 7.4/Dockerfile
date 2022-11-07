@@ -43,11 +43,3 @@ RUN apt-get install -y mysql-client
 
 # git
 RUN apt-get install -y git
-
-# node and yarn
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
-RUN apt-get install -y nodejs
-RUN npm install -g yarn
-
-# goss
-RUN curl -fsSL https://goss.rocks/install | GOSS_VER=v${GOSS_VERSION} sh
