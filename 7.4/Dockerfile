@@ -1,5 +1,5 @@
-FROM ubuntu:18.04
-LABEL maintainer="Luis Dalmolin <luis@kirschbaumdevelopment.com>"
+FROM ubuntu:22.04
+LABEL maintainer="tmsbot <tmsbot@timelessmedical.com>"
 ARG DEBIAN_FRONTEND=noninteractive
 
 ENV GOSS_VERSION="0.3.6"
